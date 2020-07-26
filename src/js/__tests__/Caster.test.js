@@ -1,5 +1,5 @@
 import Caster from '../Caster';
 
-test('', () => {
-  expect(new Caster()).toDefined();
+test('Должен создаваться объект', () => {
+  expect(new Caster('Изя', 'Daemon')).toBeDefined();
 });
